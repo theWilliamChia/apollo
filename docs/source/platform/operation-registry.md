@@ -97,6 +97,8 @@ npx apollo client:push              \
     --includes="src/**/*.{ts,js,graphql}"
 ```
 
+Note that you can use `clientName`, `clientTag`, and `clientVersion`. These fields are retained for analysis, not for validation. All operations that are stored in the operation registry are legal for _all_ clients.
+
 When succesfull, the output from this command should look similar to the following:
 
 ```
